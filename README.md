@@ -1,6 +1,6 @@
 # Production deployment
 
-1. Copy into `local/jwttomoodletoken` directory.
+1. Copy into `local/jwttomoodletoken` directory. Install it in the Moodle Web interface. Configure it, for example, by settings `userinfo_url` to `https://login.eduid.ch/idp/profile/oidc/userinfo` and `username_attribute` to `swissEduIDLinkedAffiliationUniqueID`.
 
 2. Create a role with the `local/jwttomoodletoken:usews` capability.
 
