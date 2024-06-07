@@ -1,4 +1,4 @@
-# Production deployment
+# Production Deployment
 
 1. Copy into `local/jwttomoodletoken` directory. Install it in the Moodle Web interface. Configure it, for example, by settings `userinfo_url` to `https://login.eduid.ch/idp/profile/oidc/userinfo` and `username_attribute` to `swissEduIDLinkedAffiliationUniqueID`.
 
@@ -6,7 +6,7 @@
 
 3. Create a user and assign it this role in the system context.
 
-4. In Moodle's admimnistration, chose Web Services > Manage Tokens, and create a token for this user – if needed use IP address restriction.
+4. In Moodle's administration, chose Web Services > Manage Tokens, and create a token for this user – if needed use IP address restriction.
 
 # Requests
 
